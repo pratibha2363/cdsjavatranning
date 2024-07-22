@@ -1,0 +1,13 @@
+class HelloWorld{
+    public static void main(String args[]){
+
+String oriStr ="PRATIBHA";
+String revStr = "";
+
+for (int i = 0; i < oriStr.length(); i++) {
+  revStr = oriStr.charAt(i) + revStr;
+}
+
+System.out.println("Rev string: "+ revStr);
+}
+}

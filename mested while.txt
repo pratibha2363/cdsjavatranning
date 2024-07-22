@@ -1,0 +1,18 @@
+class HelloWorld
+{
+    public static void main(String arg[])
+    {
+        int o = 1;
+        while(o < 3)
+        {
+            int i = 5; 
+            while(i< 8)
+            {
+                System.out.println(o + "  " + i);
+                i++;
+            }
+            o++;
+        }
+    
+    }
+}

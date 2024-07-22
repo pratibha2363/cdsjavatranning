@@ -1,0 +1,18 @@
+class HelloWorld {
+    public static void main(String[] args) {
+        int n=24;
+        if (n%2==0){
+            System.out.println("even");
+             if(n%6==0){
+                System.out.println("dividsible by 6");
+            }
+            else{
+                System.out.println("not divisible by 6");
+                    
+                }
+        }
+    else{
+            System.out.println("odd");
+             }        
+    }
+}        
